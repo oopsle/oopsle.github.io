@@ -62,6 +62,10 @@ a {
 a:hover {
   color: #2268b2;
 }
+em {
+  color: #c08918;
+  font-style: italic;
+}
 
 header {
   padding-top: 40px;
@@ -345,8 +349,9 @@ footer {
   margin-top: 40px;
   padding-top: 20px;
   padding-bottom: 30px;
-  font-size: 13px;
+  font-size: 12px;
   color: #aaa;
+  font-style: italic;
 }
 
 footer a {
