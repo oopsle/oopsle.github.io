@@ -240,51 +240,51 @@ form {
 
 #main-content h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 2.8em;
+  font-size: 22px;
   letter-spacing: -1px;
   color: #474747;
 } 
 
 #main-content h1:before {
-  content: "/";
+  content: "*";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -0.9em;
+  margin-left: -0.8em;
 }
 
-#main-content h2 {
+#main-content h2, #sidebar h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 22px;
+  font-size: 18px;
   font-weight: bold;
   margin-bottom: 8px;
   color: #474747;
 } 
-#main-content h2:before {
-  content: "//";
+#main-content h2:before, #sidebar h1:before {
+  content: "*";
   color: #9ddcff;
   padding-right: 0.3em;
-  margin-left: -1.5em;
+  margin-left: -.9em;
 }
 
-#main-content h3, #sidebar h1 {
+#main-content h3, #sidebar h2 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 18px;
+  font-size: 15px;
   font-weight: bold;
   margin-top: 24px;
   margin-bottom: 8px;
   color: #474747;
 } 
  
-#main-content h3:before {
-  content: "///";
+#main-content h3:before, #sidebar h2:before {
+  content: "*";
   color: #9ddcff;
   padding-right: 0.3em;
   margin-left: -2em;
 }
 
-#main-content h4, #sidebar h2 {
+#main-content h4, #sidebar h3 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 15px;
+  font-size: 14px;
   font-weight: bold;
   color: #474747;
 } 
@@ -296,9 +296,9 @@ h4:before {
   margin-left: -2.8em;
 }
 
-#main-content h5, #sidebar h3 {
+#main-content h5, #sidebar h4 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-  font-size: 14px;
+  font-size: 13px;
   color: #474747;
 } 
 h5:before {
@@ -308,7 +308,7 @@ h5:before {
   margin-left: -3.2em;
 }
 
-#main-content h6, #sidebar h4 {
+#main-content h6, #sidebar h5 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: .8em;
   color: #474747;
