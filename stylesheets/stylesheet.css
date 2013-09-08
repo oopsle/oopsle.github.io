@@ -27,6 +27,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+header img {float:left; margin:5px;}
 body {
 	line-height: 1;
 }
@@ -51,7 +52,7 @@ body {
   font-size: 15px;
   line-height: 1.5; 
   background: #fafafa url(../images/body-bg.jpg) 0 0 repeat;
-  font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+  font-family: 'Gill Sans', Helvetica, Arial, serif;
   font-weight: 400;
   color: #666;
 }
@@ -90,7 +91,7 @@ header h2 {
   color: #9ddcff;
   font-weight: normal;
   line-height: 1.3;
-  width: 540px;
+  width: 100%;
   letter-spacing: 0;
 }
 
@@ -104,6 +105,9 @@ header h3 {
   font-style: italic;
 }
 
+header h3 a {
+  color: #8dccff;
+}
 .inner {
   position: relative;
   width: 940px;
@@ -141,35 +145,6 @@ aside#sidebar p.repo-owner a {
 
 #downloads {
   margin-bottom: 40px;
-}
-
-a.button {
-  width: 134px;
-  height: 58px;
-  line-height: 1.2;
-  font-size: 23px;
-  color: #fff;
-  padding-left: 68px;
-  padding-top: 22px;
-  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
-}
-a.button small {
-  display: block;
-  font-size: 11px;
-}
-header a.button {
-  position: absolute;
-  right: 0;
-  top: 0;
-  background: transparent url(../images/github-button.png) 0 0 no-repeat;
-}
-aside a.button {
-  width: 138px;
-  padding-left: 64px;
-  display: block;
-  background: transparent url(../images/download-button.png) 0 0 no-repeat;
-  margin-bottom: 20px;
-  font-size: 21px;
 }
 
 code, pre {
@@ -397,9 +372,6 @@ footer a:hover {
   .inner {
     width: 740px;
   }
-  header h1, header h2 {
-    width: 340px;
-  }
   header h1 {
     font-size: 60px;
   }
@@ -441,27 +413,6 @@ footer a:hover {
   header h2 {
     font-size: 24px;
   }
-  header a.button {
-    background-image: none;
-    width: auto;
-    height: auto;
-    display: inline-block;
-    margin-top: 15px;
-    padding: 5px 10px;
-    position: relative;
-    text-align: center;
-    font-size: 13px;
-    line-height: 1;
-    background-color: #9ddcff;
-    color: #2879d0;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;                     
-    border-radius: 5px;    
-  }
-  header a.button small {
-    font-size: 13px;
-    display: inline;
-  }
   #main-content,
   aside#sidebar {
     float: none;
@@ -473,9 +424,6 @@ footer a:hover {
     border-top: solid 1px #ddd;
     padding: 20px 0;
     min-height: 0;
-  }
-  aside#sidebar a.button {
-    display: none;
   }
   #main-content h1:before,
   #main-content h2:before,
