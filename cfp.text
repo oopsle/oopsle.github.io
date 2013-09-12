@@ -1,23 +1,23 @@
 
-**********************************************************************
-*           1st Int'l Workshop on Open and Original Problems         *
-*                   in Software Language Engineering                 *
-*                            OOPSLE 2013                             *
-*                      http://oopsle.github.io/                      *
-*                                                                    *
-*                        October 16, 2013                            *
-*                 - Co-located with WCRE 2013 -                      *
-*                        Koblenz, Germany                            *
-**********************************************************************
+**************************************************************************
+*                   1st International Workshop on                        *
+*       Open and Original Problems in Software Language Engineering      *
+*                             OOPSLE 2013                                *
+*                       http://oopsle.github.io/                         *
+*                                                                        *
+*                          October 16, 2013                              *
+*                   - Co-located with WCRE 2013 -                        *
+*                          Koblenz, Germany                              *
+**************************************************************************
 
-                 *** CALL FOR POSITION PAPERS ***                     
+                   *** CALL FOR POSITION PAPERS ***                     
 
 
 The OOPSLE workshop is a discussion-oriented and collaborative forum for
 formulating and addressing with open, unsolved and unsolvable problems in
 software language engineering.
 
-“Software languages” comprise all kinds of artificial languages used in
+"Software languages" comprise all kinds of artificial languages used in
 software development: for programming, markup, pretty-printing, modelling,
 data description, formal specification, evolution, etc. Software language
 engineering is a relatively new research domain of systematic, disciplined
@@ -39,7 +39,10 @@ workshop, so the participants have the opportunity to read them in advance.
 
 Papers should be formatted according to the EC-EASST style and submitted
 electronically via EasyChair. The cover page is automatically produced and
-does not count towards the page limit.
+does not count towards the page limit. For further information, see the
+webpage at
+
+     http://oopsle.github.io
 
 Each accepted paper is presented at the workshop as a brief summary of its
 main idea and a set of open questions to be discussed with the
@@ -109,7 +112,7 @@ Workshop:            Oct 16, 2013
   to run it in the future.
 
 * Critically reassessing a problem that is widely assumed to be solved but
-  the solution is either underwhelming or could be “considered harmful”
+  the solution is either underwhelming or could be "considered harmful"
   (model-driven engineering, domain-specific languages, test-based
   development).
 
@@ -121,5 +124,5 @@ Software Language Engineering.
 
 ** Workshop chairs **
 
-Anya Helene Bagge, University of Bergen, Norway
-Vadim Zaytsev, CWI, Amsterdam, The Netherlands
+Anya Helene Bagge <anya@ii.uib.no>, University of Bergen, Norway
+Vadim Zaytsev <vadim@grammarware.net>, CWI, Amsterdam, The Netherlands
