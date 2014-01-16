@@ -65,8 +65,13 @@ a:hover {
 }
 
 em {
-  color: #c08918;
+  color: #916712;
   font-style: italic;
+}
+
+b {
+  color: #d52e4c;
+  font-weight: 600;
 }
 
 header {
