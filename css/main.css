@@ -65,13 +65,13 @@ a:hover {
 }
 
 em {
-  color: #916712;
+/*  color: #916712; */
   font-style: italic;
 }
 
 b {
-  color: #d52e4c;
-  font-weight: 600;
+/*  color: #d52e4c; */
+  font-weight: bolder;
 }
 
 header {
