@@ -8,8 +8,8 @@
 	<link rel="stylesheet" type="text/css" href="../css/main.css" media="screen" />
 	<link rel="stylesheet" type="text/css" href="../css/print.css" media="print" />
     <!--[if lt IE 9]>
-		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+	<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
     <title>Open and Original Problems in Software Language Engineering</title>
   </head>
 
@@ -31,34 +31,163 @@
 		  <h1 id="program">Workshop programme (tentative)</h1>
 		  <ul>
 			<h2>9:00 – 9:30 Opening and welcome of OOPSLE’14; overview of OOPSLE’13</h2>
-			<h2>9:30 – 10:30 Academic keynote: <em>Type-Checking the Cyber-Physical World</em></h2>
-			<p><em>Prof. Dr. <a href="http://www.sts.tu-harburg.de/~schupp/">Sibylle
-				Schupp</a> (Technische Universität Hamburg-Harburg)</em></p>
+			<h2>9:30 – 10:30 Academic keynote: Type-Checking the Cyber-Physical World</h2>
+			<p><em>Prof. Dr. <b><a href="http://www.sts.tu-harburg.de/~schupp/">Sibylle
+					Schupp</a></b> (Technische Universität Hamburg-Harburg)</em></p>
 
-			<h2>11:00 – 11:30 <em>Tool-automation for Supporting the DSL Learning Process</em></h2>
-			<p><em><a href="http://www.federico-tomassetti.it/">Federico Tomassetti</a>, <a href="http://www.researchgate.net/profile/Cristhian_Figueroa/">Cristhian Figueroa</a> (Politecnico di Torino), Dr. <a href="http://www4.in.tum.de/~ratiu/">Daniel Ratiu</a> (fortiss)</em></p>
+			<h2>11:00 – 11:30 Tool-automation for Supporting the DSL Learning Process</h2>
+			<p><em><b><a href="http://www.federico-tomassetti.it/">Federico Tomassetti</a></b>, <a href="http://www.researchgate.net/profile/Cristhian_Figueroa/">Cristhian Figueroa</a> (Politecnico di Torino), Dr. <a href="http://www4.in.tum.de/~ratiu/">Daniel Ratiu</a> (fortiss)</em></p>
+
+			<p>
+			  Recent technologies advances reduced significantly the effort needed
+			  to develop Domain Specific Languages (DSLs), enabling the transition to language
+			  oriented software development. In this scenario new DSLs are developed and evolve
+			  at fast-pace, to be used by a small user-base. This impose a large effort on users to
+			  learn the DSLs, while DSL designers can use little feedback to guide successive
+			  evolutions, usually just based on anecdotal considerations.
+			</p>
+			<p>We advocate that a central challenge with the proliferation of DSLs is to help users to
+			  learn the DSL and providing useful analyses to the language designers, to understand
+			  what is working and what is not in the developed DSL.
+			</p>
+			<p>In this position paper we sketch possible directions for tool-automation to support
+			  the learning processes associated with DSL adoption and to permit faster evolution
+			  cycles of the DSLs.
+			</p>
+			
+			<h2>11:30 – 12:00 Managing Language Variability in Source-to-Source Compilers</h2>
+			<p><em><b><a href="http://terohasu.net/index.html">Tero Hasu</a></b> (University of Bergen)</em></p>
+
+			<p>
+			  A programming language source-to-source compiler with human-readable output
+			  likely operates on a somewhat source and target language specific program
+			  object model. A lot of implementation investment may be tied to
+			  transformation code written against the specific model. Yet, both the
+			  source and target languages typically evolve over time, and compilers may
+			  additionally support user-specified, domain-specific language
+			  customization.  Language workbenches commonly support generating object
+			  model implementations based on grammar or data type definitions, and
+			  programming of traversals in generic ways.  Could more be done to
+			  declaratively specify abstractions for insulating the more
+			  language-semantic transformations against changes to source and target
+			  language syntax? For example, the idea of views enables pattern matching
+			  and abstract data types to coexist—could similar abstractions be made
+			  pervasive in a generated program object model?
+			</p>
+			<h2>12:00 – 12:30 People-Specific Languages</h2>
+			<p><em>Dr. <b><a href="http://tdotc.wordpress.com/">Raphael Poss</a></b> (Universiteit van Amsterdam)</em></p>
+
+			<p>
+			  The innovation of DSLs was the recognition that each application domain
+			  has its few idiomatic patterns of language use, found often in that domain and rarely
+			  in others. Capturing these idioms in the language design makes a DSL and yields
+			  gains in productivity, reliability and maintainability. Similarly, different groups of
+			  programmers have different predominant cognitive quirks. In this article I argue that
+			  programmers are attracted to some types of languages that resonate with their quirks
+			  and reluctant to use others that grate against them. Hence the question: could we
+			  tailor or evolve programming languages to the particular personality of their users?
+			  Due to the sheer diversity of personality types, any answer should be combined with
+			  automated language generation. The potential benefits include a leap in productivity
+			  and more social diversity in software engineering workplaces. The main pitfall is the
+			  risk of introducing new language barriers between people and decreased code reuse.
+			  However this may be avoidable by combining automated language generation with
+			  shared fundamental semantic building blocks.
+			</p>
+
+			<h2>13:30 – 14:30 “I double-dog dare you...”</h2>
+			<p><em>Dr. <b><a href="http://www.semdesigns.com/Company/People/idbaxter/">Ira Baxter</a></b> (Semantic Designs)</em></p>
+			<p>
+			  Tools for processing code promise the ability to carry
+			  complex analyses and code changes not possible with manual
+			  approaches.   SD's commercial tool, DMS, attempts to provide
+			  adequate support for building sophicated custom tools.   This talk will
+			  sketch a few examples of what DMS has been used for successfully.
+			  It will then discuss a variety of issues encountered or expected
+			  which prevent more effective use.   As CTO, my job
+			  is to find working technology gems to integrate into DMS to make
+			  it ever more capable.  As CEO, my job for a commercial
+			  company is to avoid doing anything resembling research.
+			  (I fail at this more often than I'd like).   As a company,
+			  we are dependent on the research community to
+			  figure out how to solve the hard problems. 
+			  A double-dog dare is a bet made that the darer will do something crazy
+			  if the daree does it first.   So, this is a set of
+			  challenges for the research community to
+			  do first.
+			</p>
 
 
-			<h2>11:30 – 12:00 <em>Managing Language Variability in Source-to-Source Compilers</em></h2>
-			<p><em><a href="http://terohasu.net/index.html">Tero Hasu</a> (University of Bergen)</em></p>
+			<h2>14:30 – 15:00 Towards Language-Oriented Software Development</h2>
+			<p><em><b>Changyun Huang</b>,
+				Prof. Dr. <b><a href="http://www-ma.ait.kyushu-u.ac.jp/~ubayashi/">Naoyasu
+					Ubayashi</a></b>,
+				Dr. <a href="http://posl.ait.kyushu-u.ac.jp/~kamei/index.html">Yasutaka
+				  Kamei</a> (Kyushu University)</em></p>
 
-			<h2>12:00 – 12:30 <em>People-Specific Languages</em></h2>
-			<p><em>Dr. <a href="http://tdotc.wordpress.com/">Raphael Poss</a> (Universiteit van Amsterdam)</em></p>
+			<p>LOP (Language-Oriented Programming) is a programming paradigum
+			  in which a programmer constructs one or more DSLs and develops an application
+			  using these DSLs. LOP opens the door towards a modern modularity vision. How-
+			  ever, it is not clear how to integrate domain analysis and DSL implementaion. To
+			  deal with this problem, we propose DSL-Line Engineering (DLE), an automated
+			  DSL construction method. This paper introduces DLE and raises a discussion to-
+			  wards LOSD (Language-Oriented Software Development).
+			</p>
 
-			<h2>13:30 – 14:30 <em>TBD</em></h2>
-			<p><em>Dr. <a href="http://www.semdesigns.com/Company/People/idbaxter/">Ira Baxter</a> (Semantic Designs)</em></p>
+			<h2>15:30 – 16:00 Capturing Programmer Intent with
+			  Extensible Annotation Systems</h2>
+			<p><em>Dr. <b><a href="http://www.cs.ecu.edu/hillsma/">Mark Hills</a></b> (East Carolina University)</em></p>
 
-			<h2>14:30 – 15:00 <em>Towards Language-Oriented Software Development</em></h2>
-			<p><em>Changyun Huang, Prof. Dr. <a href="http://www-ma.ait.kyushu-u.ac.jp/~ubayashi/">Naoyasu Ubayashi</a>, Dr. <a href="http://posl.ait.kyushu-u.ac.jp/~kamei/index.html">Yasutaka Kamei</a> (Kyushu University)</em></p>
+			<p>
+			  Many programs make implicit assumptions about data, often captured in 
+			  comments and variable naming conventions. Common examples include whether a 
+			  variable has been initialized at a certain program point, whether a 
+			  reference or pointer is (or must always be) non-null, and whether a program 
+			  value can escape from the current context. Domain-specific examples are also 
+			  common, with many scientific programs manipulating values with implicit 
+			  units of measurement. Most widely-used languages, including C, provide no 
+			  language facility for representing these assumptions, making violations of 
+			  these implicit program policies challenging to detect. 
+			</p>
+			<p>
+			  To solve this problem, policy frameworks were created to provide a 
+			  programmer-friendly way to make these assumptions explicit, using function 
+			  contracts and statement annotations to capture programmer intent. Policy 
+			  frameworks were also designed to improve reuse in program analysis tools, 
+			  allowing extensible annotation systems to be defined and used in conjunction 
+			  with an analysis-specific language semantics. So far, this technique has 
+			  been used to define multiple policies for the C and SILF languages, 
+			  including a units of measurement analysis policy for C that is competitive 
+			  with existing tools. 
+			</p>
+			<p>
+			  Current work on policy frameworks is following two tracks. First, since 
+			  defining a policy can require a significant level of knowledge about the 
+			  internals of the semantic definition, we are looking at using both 
+			  domain-specific languages and reflective semantic definitions to guide the 
+			  policy creation process. Second, we are looking for opportunities to apply 
+			  these techniques to new languages and new problem domains, including the use 
+			  of units for empirical software engineering. 
+			</p>
 
-			<h2>15:30 – 16:00 <em>Capturing Programmer Intent with
-			Extensible Annotation Systems</em></h2>
-			<p><em>Dr. <a href="http://www.cs.ecu.edu/hillsma/">Mark Hills</a> (East Carolina University)</em></p>
 
-			<h2>16:00 – 16:30 <em>Orthogonal and Extensible Type Systems: The Birth of Domain Specific Type Systems?</em></h2>
-			<p><em><a href="http://www.haskellers.com/user/merijn">Merijn Verstraaten</a> (Universiteit van Amsterdam)</em></p>
+			<h2>16:00 – 16:30 Orthogonal and Extensible Type Systems: The Birth of Domain Specific Type Systems?</h2>
+			<p><em><b><a href="http://www.haskellers.com/user/merijn">Merijn Verstraaten</a></b> (Universiteit van Amsterdam)</em></p>
 
-			<h2>16:30 – 17:30 (<b>discussion</b>)</h2>
+			<p>
+			  Type systems are commonly used to help ensure program correctness
+			  by automatically verifying invariants. Invariants can usually be divided into several
+			  orthogonal classes and encoding these different classes into a single type system
+			  leads to needlessly complex types. In this article, I propose splitting the encoding of
+			  these orthogonal invariant classes into separate type systems. This lets programmers
+			  worry about one class of invariants at a time. Additionally, I observe that if we are
+			  designing a programming language to have multiple type systems, we may as well
+			  design it to be extensible. This would allow programmers to specify additional
+			  classes of invariants and typing rules for these, opening these invariant classes up to
+			  automatic verification by the compiler. I outline these opportunities and suggest a
+			  followup research agenda.
+			</p>
+
+			<h2>16:30 – 17:30 Discussion</h2>
 		  </ul>
 
 		</section>
