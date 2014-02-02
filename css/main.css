@@ -219,6 +219,11 @@ form {
 
 /* GENERAL ELEMENT TYPE STYLES */
 
+.star {
+  font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
+  color: #9ddcff;
+}
+
 #main-content h1 {
   font-family: 'Architects Daughter', 'Helvetica Neue', Helvetica, Arial, serif; 
   font-size: 22px;
