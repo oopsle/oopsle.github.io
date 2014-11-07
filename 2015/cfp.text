@@ -1,0 +1,109 @@
+**************************************************************************
+*                  Third International Workshop on                       *
+*       Open and Original Problems in Software Language Engineering      *
+*                             OOPSLE 2015                                *
+*                     http://oopsle.github.io/2015/                      *
+*                                                                        *
+*               - Co-located with SANER, March 2–6 2015 -                *
+*                          Montréal, Canada                              *
+**************************************************************************
+
+                   *** CALL FOR POSITION PAPERS ***                     
+
+Everyone is invited to submit a position paper up to 4 pages in length,
+sketching an open or original problem, idea or challenge. Submissions are
+screened by the workshop chairs, who will select papers based on potential
+for discussion and interest to the community, as well as the clarity of
+presentation and motivation.
+
+OOPSLE is not a mini-conference, and therefore it is not necessary for the
+work to be conclusive yet. The papers will be posted online prior to the
+workshop, so the participants have the opportunity to read them in advance.
+
+Papers should submitted electronically via EasyChair.
+
+Each accepted paper is presented at the workshop as a brief summary of its
+main idea and a set of open questions to be discussed with the
+audience. Presenters will ask for input on how to proceed with experiments,
+validation or refinement of their ideas, collect opinions on the presented
+definitions, share similar experience. We expect the participants to be
+friendly but inquisitive, and ask hard questions back that may lead to
+deepening the initially presented insights. The workshop is planned to have
+short presentations and long discussions to stimulate direct collaboration
+afterwards.
+
+After the workshop, all participants will be invited to submit a full paper
+to a special issue of the Electronic Communications of the EASST, an open
+access peer-reviewed journal (approval pending). Journal submissions will
+undergo peer review by the members of the program committee consisting of
+researchers in software language engineering and reverse
+engineering. Journal authors should expect to participate in peer review.
+
+** Dates **
+
+Submission deadline: Dec 31, 2014
+Workshop:            At SANER, March 2–6, 2015
+                     (exact date TBD)
+
+** Links **
+
+Workshop Webpage:    http://oopsle.github.io/2015/
+Submission Page:     https://www.easychair.org/conferences/?conf=oopsle2015
+
+** Relevant topics **
+
+We acknowledge the following list as non-exhaustive collection of examples
+of topics of interests of the workshop:
+
+* Defining an unsolved problem by establishing both its provenance in prior
+  research and the lack of a fully satisfactory solution.
+
+* Identifying new problem areas in software language engineering that have
+  not been previously studied due to lack of understanding, techniques,
+  practical interest or scalability issues.
+
+* Engaging in technological space travel by identifying similar problems in
+  various sectors of software language engineering (i.e., grammarware,
+  modelware, ontoware, XMLware, databases, spreadsheets, etc).
+
+* Generalising and reformulating of several well-known problems into
+  several sides of one open challenge (e.g., parsing and pretty-printing).
+
+* Proposing systematic methods of assessment and comparison of existing and
+  emerging solutions to a problem that is not or cannot be fully solved
+  (e.g., choosing between parsing techniques, metaprogramming
+  methodologies, software language workbenches).
+
+* Arguing about definitions of terms commonly used in various senses (e.g.,
+  software language design, quality of a grammar, transformation).
+
+* Presenting unconventional crossovers of popular research topics and
+  software language engineering concerns (e.g., green IDEs and energy
+  consumption considerations for parsing algorithms).
+
+* Making an overview of major hindrances hindering solution of a standing
+  problem (e.g., tool interoperability and reuse, tackling language and
+  metalanguage diversity and versatility, consistency management).
+
+* Designing open datasets in the software language engineering domain and
+  the way we could share and incorporate them.
+
+* Describing novel or unconventional ideas that are promising but are not
+  yet fully validated, or where validation itself may be a challenge.
+
+* Revealing solid negative results, failed experiments and disproven
+  hypotheses.
+
+* Constructing future community experiments and considering topics our
+  community expects to see addressed by such a competition, if one decides
+  to run it in the future.
+
+* Critically reassessing a problem that is widely assumed to be solved but
+  the solution is either underwhelming or could be “considered harmful”
+  (model-driven engineering, domain-specific languages, test-based
+  development).
+
+** Workshop Co-Chairs **
+
+* Anya Helene Bagge <anya@ii.uib.no>, University of Bergen, Norway
+* Vadim Zaytsev <vadim@grammarware.net>, University of Amsterdam, The Netherlands
