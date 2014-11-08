@@ -2,9 +2,9 @@
 *                  Third International Workshop on                       *
 *       Open and Original Problems in Software Language Engineering      *
 *                             OOPSLE 2015                                *
-*                     http://oopsle.github.io/2015/                      *
+*                     http://oopsle.github.io/2015                       *
 *                                                                        *
-*               - Co-located with SANER, March 2–6 2015 -                *
+*               — Co-located with SANER, March 2–6 2015 —                *
 *                          Montréal, Canada                              *
 **************************************************************************
 
@@ -23,7 +23,7 @@ workshop, so the participants have the opportunity to read them in advance.
 Papers should submitted electronically via EasyChair.
 
 Each accepted paper is presented at the workshop as a brief summary of its
-main idea and a set of open questions to be discussed with the
+main idea and a set of open questions to be discussed with the 
 audience. Presenters will ask for input on how to proceed with experiments,
 validation or refinement of their ideas, collect opinions on the presented
 definitions, share similar experience. We expect the participants to be
@@ -33,21 +33,19 @@ short presentations and long discussions to stimulate direct collaboration
 afterwards.
 
 After the workshop, all participants will be invited to submit a full paper
-to a special issue of the Electronic Communications of the EASST, an open
-access peer-reviewed journal (approval pending). Journal submissions will
+to a special issue in a peer-reviewed journal. Those submissions will
 undergo peer review by the members of the program committee consisting of
-researchers in software language engineering and reverse
-engineering. Journal authors should expect to participate in peer review.
+researchers in software language engineering and reverse engineering.
 
 ** Dates **
 
-Submission deadline: Dec 31, 2014
+Submission deadline: Dec 15, 2014
 Workshop:            At SANER, March 2–6, 2015
-                     (exact date TBD)
+                     (exact date TBA)
 
 ** Links **
 
-Workshop Webpage:    http://oopsle.github.io/2015/
+Workshop Webpage:    http://oopsle.github.io/2015
 Submission Page:     https://www.easychair.org/conferences/?conf=oopsle2015
 
 ** Relevant topics **
