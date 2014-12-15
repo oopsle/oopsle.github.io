@@ -39,9 +39,8 @@ researchers in software language engineering and reverse engineering.
 
 ** Dates **
 
-Submission deadline: Dec 15, 2014
-Workshop:            At SANER, March 2–6, 2015
-                     (exact date TBA)
+Submission deadline: 15 Jan 2015
+Workshop:            At SANER, 6 Mar 2015
 
 ** Links **
 
