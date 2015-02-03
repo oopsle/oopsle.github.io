@@ -4,26 +4,26 @@
 *                             OOPSLE 2015                                *
 *                     http://oopsle.github.io/2015                       *
 *                                                                        *
-*               — Co-located with SANER, March 6th 2015 —                *
+*                — Co-located with SANER, 6 March 2015 —                 *
 *                          Montréal, Canada                              *
 **************************************************************************
 
                    *** CALL FOR PARTICIPATION ***                     
 
 The OOPSLE workshop is a discussion-oriented and collaborative forum for
-formulating and addressing with open, unsolved and unsolvable problems in
-software language engineering. It can help you define your problems or
+formulating and addressing open, unsolved and unsolvable problems in software
+language engineering. It can help you define and refine your problems or
 verify them on the early stage with the community.
 
 “Software languages” comprise all kinds of artificial languages used in
 software development: for programming, markup, pretty-printing, modelling,
 data description, formal specification, evolution, etc. Software language
-engineering is a relatively new research domain of systematic, disciplined
+engineering is a relatively novel research domain of systematic, disciplined
 and measurable approaches of development, evolution and maintenance of such
 languages.
 
 The third OOPSLE workshop will be held in connection with SANER 2015, in
-Montréal, Canada, on March 6th 2015, and will feature a keynote by Jim
+Montréal, Canada, on 6 March 2015, and will feature a keynote by Jim
 Cordy as well as a lineup of invited talks. As usual, OOPSLE will be
 discussion-oriented, with presenters asking for input on how to proceed
 with experiments, validation or refinement of their ideas, collect opinions
