@@ -1,0 +1,68 @@
+**************************************************************************
+*                  Third International Workshop on                       *
+*       Open and Original Problems in Software Language Engineering      *
+*                             OOPSLE 2015                                *
+*                     http://oopsle.github.io/2015                       *
+*                                                                        *
+*               — Co-located with SANER, March 6th 2015 —                *
+*                          Montréal, Canada                              *
+**************************************************************************
+
+                   *** CALL FOR PARTICIPATION ***                     
+
+The OOPSLE workshop is a discussion-oriented and collaborative forum for
+formulating and addressing with open, unsolved and unsolvable problems in
+software language engineering. It can help you define your problems or
+verify them on the early stage with the community.
+
+“Software languages” comprise all kinds of artificial languages used in
+software development: for programming, markup, pretty-printing, modelling,
+data description, formal specification, evolution, etc. Software language
+engineering is a relatively new research domain of systematic, disciplined
+and measurable approaches of development, evolution and maintenance of such
+languages.
+
+The third OOPSLE workshop will be held in connection with SANER 2015, in
+Montréal, Canada, on March 6th 2015, and will feature a keynote by Jim
+Cordy as well as a lineup of invited talks. As usual, OOPSLE will be
+discussion-oriented, with presenters asking for input on how to proceed
+with experiments, validation or refinement of their ideas, collect opinions
+on the presented definitions, share similar experience and so on. We expect
+the participants to be friendly but inquisitive, and ask hard questions
+back that may lead to deepening the initially presented insights. The
+workshop is planned to have short presentations and long discussions to
+stimulate direct collaboration afterwards.
+
+We plan to continue our discussion at the informal after-workshop dinner.
+
+** Workshop Programme **
+
+9:15 – 10:30 (keynote) Prof. Dr. James R. Cordy (Queen’s),
+             “Transformations of Grammatical Views”
+11:00 – 11:45 Dr. Emily Hill (Drew),
+              exact topic TBA (natural language processing)
+11:45 – 12:30 Dr. Zinovy Diskin (Waterloo),
+              exact topic TBA (categorical models of SE)
+14:00 – 14:45 Dr. Alexander Serebrenik (CWI, TU/e),
+              exact topic TBA (social aspects of SLE)
+14:45 – 15:30 Dr. Mark Hills (ECU),
+              “Domain-Specific Languages for Program Analysis”
+16:00 – 16:45 Prof. Dr. Naoyasu Ubayashi (Kyushu),
+              “Uncertainty-Aware Programming”
+16:45 – 17:30 (discussion)
+19:00: dinner (TBA)
+
+
+** Dates **
+
+Workshop:            At SANER, 6 Mar 2015
+
+** Links **
+
+Workshop Webpage:    http://oopsle.github.io/2015
+Registration:        http://reengineer.org/saner_2015/register_en.php
+
+** Workshop Co-Chairs **
+
+* Anya Helene Bagge <anya@ii.uib.no>, University of Bergen, Norway
+* Vadim Zaytsev <vadim@grammarware.net>, University of Amsterdam, The Netherlands
