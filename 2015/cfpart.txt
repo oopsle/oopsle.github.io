@@ -1,11 +1,11 @@
 **************************************************************************
-*                  Third International Workshop on                       *
-*       Open and Original Problems in Software Language Engineering      *
-*                             OOPSLE 2015                                *
-*                     http://oopsle.github.io/2015                       *
-*                                                                        *
-*                — Co-located with SANER, 6 March 2015 —                 *
-*                          Montréal, Canada                              *
+*                  Third International Workshop on
+*       Open and Original Problems in Software Language Engineering
+*                             OOPSLE 2015
+*                     http://oopsle.github.io/2015
+*
+*                — Co-located with SANER, 6 March 2015 —
+*                          Montréal, Canada
 **************************************************************************
 
                    *** CALL FOR PARTICIPATION ***                     
