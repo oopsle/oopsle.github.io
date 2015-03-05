@@ -42,7 +42,23 @@
 			<a href="http://research.cs.queensu.ca/home/cordy/">James R. Cordy</a> (Queen’s)
 		</p>
 		<p>
-			TBA
+			Boolean grammars offer an extension to context-free grammar notation
+			that adds conjunction (<tt>and</tt>, <tt>&amp;</tt>) and anti-conjunction (<tt>and not</tt>, <tt>&amp;!</tt>) to
+			traditional disjunctive alternative (<tt>or</tt>, <tt>|</tt>) production rules.  “And” simply means
+			that a matched input string must conform to both of two grammatical forms,
+			and “and not” means that it must conform to the first, but not the second.
+			 In the language theory community, Alex Okhotin has shown that Boolean
+			grammars can recognize a significantly larger set of languages than context-free,
+			while retaining reasonably efficient (polynomial) parse complexity.
+		</p><p>
+			In this talk I will outline our experience in implementing a practical Boolean
+			parser for TXL, a popular production source transformation system, both
+			to support a larger set of input languages, and to allow for direct implementation
+			of the notion of "agile parsing”, using Boolean productions to specify multiple
+			simultaneous parse “views” of the same input in order to facilitate different
+			transformation tasks.  Along the way we will discover that source transformation
+			in the presence of Boolean grammars is not nearly so straightforward
+			an extension of transformation rules as it is for grammar rules.
 		</p>
 
 		<h2 id="hill">11:00 – 11:45 Engineering Iron Man’s JARVIS</h2>
