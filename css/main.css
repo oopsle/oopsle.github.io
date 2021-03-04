@@ -129,6 +129,7 @@ header h3 a, .header h3 a {
 .inner {
   position: relative;
   margin: 0 auto;
+  min-height: 210px;
 }
 
 
